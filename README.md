@@ -31,3 +31,18 @@ Si el usuario ingresa una opción incorrecta el programa debe imprimir opción i
 
 Todo el código debe ser escrito en inglés y no puede modificar los nombres de los archivos. Todo lo que despliegue el programa hacia el usuario deberá estar escrito en español. El archivo principal de llamará **app.py**
 
+## Autograding
+
+This example project is written in Python, and tested with pytest.
+
+The assignment
+The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+
+Setup command
+`sudo -H pip3 install pytest`
+
+Run command
+`pytest`
+
+Notes
+pip's install path is not included in the PATH var by default, so without installing via sudo -H, pytest would be unaccessible.

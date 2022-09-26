@@ -68,6 +68,6 @@ while user_input != "0":
         lucky_color()
     elif user_input == "0":
         print("Chau chau")
-        exit()
+        exit(0)
     else:
         print("Opción incorrecta")
